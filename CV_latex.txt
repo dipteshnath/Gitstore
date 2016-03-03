@@ -1,0 +1,197 @@
+%DIPTESH RESUME
+\documentclass[]{deedy-resume-openfont}
+%\documentclass[11pt, a4paper]{awesome-cv}
+%\usepackage{gentium}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\begin{flushright}
+%\href{mailto:dnath@uncc.edu}{dnath@uncc.edu} | 704.905.3015
+%\lastupdated
+%\end{flushright}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\namesection{Diptesh}{Nath}
+{Email-\custombold{dnath@uncc.edu} Cell- \custombold{704-905-3015} LinkedIn-{\custombold{www.linkedin.com/in/diptesh-nath-7369807b}}} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.28\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     CONTACTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{COMMUNICATE}
+%Cell:{\custombold{+1 704-905-3015}} \\
+%Email:{\custombold{dnath@uncc.edu}} \\
+%LinkedIn:  \href{https://www.linkedin.com/in/diptesh-nath-7369807b}{\custombold{in/diptesh-nath-7369807b}} \\
+%Snail Mail:\custombold{508, Barton Creek Dr, Apt-I, NC 28262}
+%\sectionsep
+
+%%%%%%%%%%%%%%%%%%
+%SUMMARY
+%%%%%%%%%%%%%%%%%%%
+\section{Summary}
+A Master's student specializing in Data Science and Analytics, actively seeking Summer 2016 internship.
+Has 1 year 10 months in Cloud based ERP/CRM - NetSuite
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{University of North Carolina}
+\descript{MS in Computer Science}
+\location{Expected in Dec 2016 |Charlotte, NC \\ Current GPA:3.67 / 4.00}
+\sectionsep
+\subsection{West Bengal University Of Technology}
+\descript{B. Tech. in Electronics and Communication}
+\location{Graduated May 2013 | Kolkata,India}
+\location{ Degree GPA: 7.80 / 10.00}
+
+\sectionsep
+
+\section{Skills}
+%\subsection{Programming}
+%\location{Over 5000 lines:}
+\custombold{Familiar With-}
+\textbullet{}NetSuite Cloud Suite\textbullet{}Java\textbullet{}C\textbullet{}SQL\textbullet{}Tableau\textbullet{}R\\
+\textbullet{}Hadoop/MapReduce\textbullet{}Python\\
+\textbullet{}PLSQL\textbullet{}PHP\textbullet{}JavaScript\textbullet{}Android\\
+\textbullet{}CSS\textbullet{}HTML\textbullet{}SVG\textbullet{}XML\textbullet{}D3\\
+\textbullet{}MATLAB\textbullet{}.Net\textbullet{}C++\textbullet{}LinuxOS\\
+\textbullet{}Microsoft Excel\textbullet{}VHDL
+\textbullet{}HEW platform-RX63N
+\sectionsep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Coursework}
+\subsection{Graduate}
+Big Data and Mobile Devices \\
+Data Communication and Networking\\
+Embedded Systems\\
+Algorithms and Data Structures \\
+Knowledge Discovery in Databases\\
+Software System Design and Imp.\\
+Visual Analytics\\
+\sectionsep
+
+\subsection{Undergraduate}
+Database Management System\\
+Computer Architecture and System\\
+Internet Technology\\
+Software Engineering\\
+%{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst) }}} \\
+%Unix Tools and Scripting \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS'
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.71\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Experience}
+
+\runsubsection{CapGemini}
+\descript{| NetSuite Consultant | May 2013 – Mar 2015 | Mumbai,India}
+%\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\textbullet{}Used Scripting,Analytics,WorkFlows in NetSuite-A cloud based ERP/CRM to develop solutions based on business requirement\\
+\textbullet{}Managed and directed a team of consultants to develop requirement based solution and so improved cost per user for the client
+\sectionsep
+
+\section{Relevant Projects}
+
+\custombold{Package for Social Media data Analysis}
+\location{| Jan 2016 - Present | UNC, Charlotte}
+\textbullet{}R package to perform big data analysis of Social Media metrics to understand responsiveness to campaigns and promotions\\
+\textbullet{}Identify influential factors and behavioral insights from user activities using data mining\\
+\textbullet{}Develop visualization using Tableau for advertising and marketing agencies to analyse key indicators\\
+\sectionsep
+\custombold{Power Scheduling using Mobile Device in Smart Grid}
+\location{| Oct 2015 – Dec 2015 | UNC, Charlotte}
+%\sectionsep
+%\begin{tightemize}
+\textbullet{}Smart Appliances scheduling using Hadoop Map/Reduce and Android\\
+\textbullet{}Application development with active integration of database servers using PHP\\
+\textbullet{}Implemented two independent servers, i.e. Home server and Utility server\\
+\textbullet{}Queried the best Schedule to find best cost via Mobile from Utility / Home Server\\ 
+\textbullet{}Updated accepted Schedule to both Home Server and Utility server via PHP scripts\\ 
+\sectionsep
+\custombold{Client-Syngenta AG}{ | Jul 2014 – Dec 2014 | Capgemini, Mumbai}\\
+\textbullet{}Used Suitescripts to implement O2C between Franchisee and Syngenta Account\\
+\textbullet{}Developed SuiteAnalytics-Dashboards,SavedSearches to provide strategic intelligence in the system\\
+\textbullet{}Created User Event scripts, multiple Saved Search,workflows, custom reports for implementation of Indian taxation functionality in NetSuite\\
+\sectionsep
+\custombold{Client-NetSuite Message service Integration}{ | Aug 2013 – Jul 2014 | Capgemini, Mumbai}\\
+\textbullet{}Used SuiteScript with Bulk SMS Service for sending scenerio- based SMS from NetSuite\\
+\textbullet{}Created Saved Searches,custom Reports and KPIs to show SMSs related data\\
+\sectionsep
+\custombold{Evaluate the effect of adaptation rate on network stability and performance}
+\location{| Nov 2015 - Dec 2015 | UNC, Charlotte}
+\textbullet{}Evaluated the best routes for transmission between nodes under varying cost\\
+\textbullet{} Increased stability in the network by analysing MATLAB simulations\\
+ \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{OTHER PROJECTS}
+
+%\sectionsep
+\custombold{Mobile App for package tracking}
+\location{| Aug 2015 - Oct 2015 | UNC, Charlotte}
+\textbullet{} Developed background simulation framework for 100,000 packages located at different locations\\
+\textbullet{} Tracked packages using App and send Email notification when any one of the packages reach destination\\
+ \sectionsep 
+\custombold{Client-TGIF}{ | Oct 2014 – Mar 2015 | Capgemini, Mumbai}\\
+\textbullet{}Designed and implemented functional scenarios; Created test case scenarios\\
+\textbullet{}Created and installed bundles using SuiteBundler along with Bundle Installation Script; Data migration using CSV import in NetSuite\\
+\textbullet{}Created SOAP request and response using SuiteTalk Platform along with .Net
+\sectionsep
+
+
+\custombold{Embedded Top Gun game on RX63N}
+\location{| Oct 2015 - Nov 2015 | UNC, Charlotte}
+\textbullet{} A user received points by controlling and saving an aeroplane from enemy plane.The planes were displayed on a LCD screen and were controlled using switches\\
+\sectionsep
+%\custombold{Design of Booth‘s multiplier using VHDL}
+%\location{| Dec 2011 - Apr 2013 | MSIT, Kolkata}
+%\textbullet{} Constructed  and  simulated  the  structural  design  of  booth  ‘s  multiplier using  VHDL,which would multiply  two  unsigned  binary numbers
+ %\end{tightemize}
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
