@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ <title>D3 Homework</title>
+ </head>
+ 
+ <style>
+
+body { font: 15px georgian;}
+div.tooltip {	
+    position: absolute;			
+    text-align: left;			
+    width: 70px;					
+    height: 30px;									
+    font: 10px georgian;		
+	color:blue;	
+   			
+}
+</style>
+  <body>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+  <input type="button" value="Load CIRCLES" onclick="LoadDataClick()" color="#008CBA" align="left"; />
+  <br />
+  <!-- <svg width="500" height="500"></svg> -->
+  <script type="text/javascript">
+  function LoadDataClick() {
+    d3.csv("dat.csv", LoadDataReady);
+   }   
+   function LoadDataReady(err, datafile) {
+			var canvas = d3.select("body")
+						.append("svg")
+						.attr("width",750)
+						.attr("height",750)			
+	var shapes = canvas.selectAll("ellipse")
+				.data(datafile)
+				.enter()
+				.append("ellipse")
+				.attr("rx", function(d) {return d.rxpos})
+				.attr("ry", function(d) {return d.rypos})
+				.attr("cx", function(d) {return (d.xpos)})
+				.attr("cy", function(d) {return d.ypos})
+				.attr("fill",function(d) {return d.color})
+				.on("mousedown", myMousedown)
+				.on("mouseup", myMouseUp)
+				.on("mouseover", myMouseOver)
+				.on("mouseout", function(d) {		
+							div.transition()		
+							.duration(500)		
+							.style("opacity", 0.1);	
+						});				
+	function myMouseOver(d) {
+				var pos = d3.select(this)
+				div.transition()
+                .duration(300)		
+                .style("opacity", .6)
+				div.html("COLOR= " + d.color)
+				.style("left", (d3.event.pageX + 20) + "px")		
+                .style("top", (d3.event.pageY - 20) + "px")
+				};		
+				canvas.selectAll("text")
+				.data(datafile)
+				.enter()
+					.append("text")
+					.attr("fill","black")
+					.attr("y", function(d) {return d.ypos-20})
+					.attr("x", function(d) {return d.xpos - 20})
+					.text(function(d) {return d.color})
+					.attr("font-size", "15px")
+					.attr("color", "blue")
+	}
+	function myMousedown() {
+                var rand=(Math.floor((Math.random() * 3) + 1));
+				var animate = d3.select(this);
+            animate.transition()
+                  .duration(1000)
+                  .attr("rx", animate.attr("rx")*rand)
+				  .attr("cx", animate.attr("cx")*rand)
+				  .attr("cy", animate.attr("cy")*rand);
+           };	
+	function myMouseUp() {
+            var animate = d3.select(this);
+            animate.transition()
+                  .duration(900)
+                  .attr("ry", animate.attr("rx"))
+				  .attr("cx", animate.attr("cy"))
+				  .attr("cy", animate.attr("cx"));
+           };
+var div = d3.select("body").append("div")	
+    .attr("class", "tooltip")				
+    .style("opacity", 0);		   
+  </script> 
+ </body>
+</html>
